@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/config.ts","./src/main.tsx","./src/vite-env.d.ts","./src/components/gridcell.tsx","./src/components/header.tsx","./src/components/joinscreen.tsx","./src/components/mobilebar.tsx","./src/components/sidebar.tsx","./src/components/territorygrid.tsx","./src/hooks/usesocket.ts"],"version":"5.9.3"}
