@@ -9,13 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@territory-grid/shared": "*",
+    "@territory-grid/shared": "workspace",
     "framer-motion": "^11.18.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "socket.io-client": "^4.8.1"
   },
-  "devDependencies": {
+  "devDependencies": { 
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react": "^4.3.4",
