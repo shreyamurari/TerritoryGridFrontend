@@ -9,8 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@territory-grid/shared": "workspace",
-    "framer-motion": "^11.18.0",
+"@territory-grid/shared": "file:./shared"    "framer-motion": "^11.18.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "socket.io-client": "^4.8.1"
