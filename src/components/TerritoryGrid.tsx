@@ -1,6 +1,6 @@
 import { useState, useRef, useCallback, useMemo } from 'react';
 import { motion } from 'framer-motion';
-import { CellOwnership } from '@territory-grid/shared';
+import { CellOwnership } from '../shared';
 import { GridCell } from './GridCell';
 
 interface TerritoryGridProps {

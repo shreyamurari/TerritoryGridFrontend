@@ -4,7 +4,7 @@ import {
   LeaderboardEntry,
   StatsSnapshot,
   ActivityEvent,
-} from '@territory-grid/shared';
+} from '../shared';
 
 interface SidebarProps {
   user: UserProfile;
