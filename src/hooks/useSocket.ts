@@ -10,7 +10,7 @@ import {
   StatsSnapshot,
   ActivityEvent,
   CaptureResult,
-} from '@territory-grid/shared';
+} from '../shared';
 import { SOCKET_URL } from '../config';
 
 export type ConnectionStatus = 'connecting' | 'connected' | 'disconnected' | 'error';

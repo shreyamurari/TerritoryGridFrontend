@@ -1,4 +1,4 @@
-import { UserProfile, LeaderboardEntry } from '@territory-grid/shared';
+import { UserProfile, LeaderboardEntry } from '../shared';
 
 interface MobileBarProps {
   user: UserProfile;
