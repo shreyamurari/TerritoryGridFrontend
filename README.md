@@ -143,7 +143,7 @@ Default `backend/.env`:
 ```
 PORT=3001
 MONGODB_URI=mongodb://localhost:27017/territory-grid
-CORS_ORIGIN=http://localhost:5173
+CORS_ORIGIN=http://localhost:5173, https://territory-grid-frontend.vercel.app/
 REDIS_URL=
 GRID_SIZE=50
 ```
