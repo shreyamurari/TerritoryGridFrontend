@@ -5,7 +5,7 @@ COPY shared ./shared
 COPY frontend ./frontend
 RUN npm install -w shared -w frontend
 RUN npm run build -w shared
-ARG VITE_API_URL=http://localhost:3001
+ARG VITE_API_URL=https://territorygridbackend.onrender.com/
 ARG VITE_SOCKET_URL=http://localhost:3001
 ENV VITE_API_URL=$VITE_API_URL VITE_SOCKET_URL=$VITE_SOCKET_URL
 RUN npm run build -w frontend
